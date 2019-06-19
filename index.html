@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">    
+    <style>
+        .card,
+        .card-header:first-child {
+            border-radius: 0;
+            border-bottom: 0;
+        }
+        .faq-items .card:last-of-type {
+            border-bottom: 1px solid rgba(0,0,0,.125);
+        }
+        .faq-item .question {
+            cursor: pointer;
+            color: hsl(30,100%, 60%)
+        }
+        .faq-item .question:hover {
+            color: inherit;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="faq text-center container">
+        <div class="row">
+            <div class="col-6 offset-3 col-sm-4 offset-sm-4">
+                <h1 class="header">FAQ</h1>
+                <hr />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 faq-items" id="faq-items-2019">
+                <div class="faq-item card">
+                    <div class="question card-header" data-toggle="collapse" data-target="#faq-item-1-answer">Kim jest Front End Developer?</div>
+                    <div class="answer-container collapse" id="faq-item-1-answer" data-parent="#faq-items-2019">
+                        <div class="answer card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem ducimus repellendus officiis repellat atque optio, debitis aperiam, voluptas provident voluptate dolor? Animi quas at, voluptatem velit vitae consequuntur voluptas! Accusantium?
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item card">
+                    <div class="question card-header" data-toggle="collapse" data-target="#faq-item-2-answer">Od czego zaczyna się nauka?</div>
+                    <div class="answer-container collapse" id="faq-item-2-answer" data-parent="#faq-items-2019">
+                        <div class="answer card-body">
+                        Atque optio, debitis aperiam, voluptas provident voluptate dolor? Animi quas at, voluptatem velit vitae consequuntur voluptas! Accusantium?
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item card">
+                    <div class="question card-header" data-toggle="collapse" data-target="#faq-item-3-answer">Nam już podstawy, co dalej?</div>
+                    <div class="answer-container collapse" id="faq-item-3-answer" data-parent="#faq-items-2019">
+                        <div class="answer card-body">
+                        Voluptatem ducimus repellendus officiis repellat atque optio, debitis aperiam, voluptas provident voluptate dolor? Animi quas at, voluptatem velit vitae consequuntur voluptas! Accusantium?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
